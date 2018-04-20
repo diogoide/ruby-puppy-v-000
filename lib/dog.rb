@@ -8,9 +8,9 @@ class Dog
   end
 
   def self.all
-    @all.map do |name|
+    @@all.map do |name|
       puts name
-    end 
+    end
   end
 
 
