@@ -11,7 +11,7 @@ class Dog
     @@all.map do |name|
       puts name
     end
-    @all
+    @@all 
   end
 
 
